@@ -73,6 +73,7 @@ def ceaserEnc(key, inFile, outFile):
 def affineDec(keya, keyb, inFile, outFile):
   #convert the key from string to int
   keya, keyb, invkeya = int(keya), int(keyb), 0
+  #get the inverse of the a key
   for i in range(26):
     if(keya*i%26 == 1):
       invkeya = i
