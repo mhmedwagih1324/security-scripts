@@ -150,6 +150,8 @@ def vigDec(c, b):
   elif (c >= A and c <= Z):
     shiftAmount = ord(b)-a
     c = chr((c-A-shiftAmount+26)%26+A)
+  else:
+    c = chr(c)
   return c
 
 def vigEnc(c, b):
@@ -161,6 +163,8 @@ def vigEnc(c, b):
   elif (c >= A and c <= Z):
     shiftAmount = ord(b)-a
     c = chr((c-A+shiftAmount)%26+A)
+  else:
+    c = chr(c)
   return c
 
 def main(argv):
