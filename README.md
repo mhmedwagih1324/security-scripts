@@ -11,5 +11,9 @@ python solution.py shift decrypt in.txt out.txt k
 #for affine cipher
 python solution.py affine encrypt in.txt out.txt a b
 python solution.py affine decrypt in.txt out.txt a b
+
+#for vigenere cipher
+python solution.py vigenere encrypt in.txt out.txt keyword
+python solution.py vigenere decrypt in.txt out.txt keyword
 ```
 you can try also the this colab notebook https://colab.research.google.com/drive/1X4AxCszFdQkKsHK2cAehBPKprG9pgkqM
