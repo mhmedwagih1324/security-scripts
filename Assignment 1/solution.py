@@ -145,11 +145,11 @@ def vigDec(c, b):
   #the char is small
   if(c >= a and c <= z):
     shiftAmount = ord(b)-a
-    c = chr((c-a-shiftAmount+26)%26+a)
+    c = chr((c-a-shiftAmount+26)%26+a)    #Wigo core equation
   #the char is capital
   elif (c >= A and c <= Z):
     shiftAmount = ord(b)-a
-    c = chr((c-A-shiftAmount+26)%26+A)
+    c = chr((c-A-shiftAmount+26)%26+A)    #Wigo core equation
   else:
     c = chr(c)
   return c
@@ -158,11 +158,11 @@ def vigEnc(c, b):
   #the char is small
   if(c >= a and c <= z):
     shiftAmount = ord(b)-a
-    c = chr((c-a+shiftAmount)%26+a)
+    c = chr((c-a+shiftAmount)%26+a)       #Wigo core equation
   #the char is capital
   elif (c >= A and c <= Z):
     shiftAmount = ord(b)-a
-    c = chr((c-A+shiftAmount)%26+A)
+    c = chr((c-A+shiftAmount)%26+A)       #Wigo core equation
   else:
     c = chr(c)
   return c
