@@ -17,3 +17,6 @@ python solution.py vigenere encrypt in.txt out.txt keyword
 python solution.py vigenere decrypt in.txt out.txt keyword
 ```
 you can try also the this colab notebook https://colab.research.google.com/drive/1X4AxCszFdQkKsHK2cAehBPKprG9pgkqM
+## Assignment 2
+contains a file named decrypt.py which contains the decrypt function that decrypts the content of the flag.enc file that was earlier encrypted with the file encrypt.py
+the folder also contains a screenshot of my account on cypertalents.com and a file named "how was solved.txt" that describes how the challenge was solved.
