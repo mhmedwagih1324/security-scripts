@@ -1,5 +1,5 @@
 # security-scripts
-It will contain some python implementations of security ciphers (encryption &amp; decryption)
+It will contain the solution of my security assignments in the 4th year 2nd semster.
 
 ## Assignment 1
 contains the shift, affine and vigenere ciphers encryptors and decryptors. 
