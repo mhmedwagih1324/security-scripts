@@ -1,7 +1,7 @@
 # Main concept
 The main idea 💡 of the challenge is the XOR operation that is: `A^B^B = A`  
 
-# Explaining 'encrypt.py'  
+# Explaining [encrypt.py](https://github.com/mhmedwagih1324/security-scripts/blob/master/Assignment%202/encrypt.py)  
 Encyption steps:  
 - Ensure that the number of characters to encrypt is divisible by 16, because the encryption algorithm deals with a block of 16 characters, so we add some `#` symbols to make the last block is 16 characters.
 - Digging into the encrypt function, there we see unpack process which translates some bytes to `unsigned integers` and save the resulted 4 integers into `a, b, c, d`.  
@@ -10,7 +10,7 @@ Encyption steps:
 - we continue encrypting other blocks of characters.
 - we save the string to a file named flag.enc.  
 
-# Explaining 'decrypt.py'  
+# Explaining [decrypt.py](https://github.com/mhmedwagih1324/security-scripts/blob/master/Assignment%202/decrypt.py)  
 Decryption steps:  
 - we open the file flag.enc with the parameter 'rb' which indicates that we are reading bytes.
 - we make an empty string then walk through the cipher text as blocks of 16 bytes and call the function decrypt(block), which should decrypt the block and return with the plain text.  
